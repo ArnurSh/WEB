@@ -1,0 +1,3 @@
+html page for this assigment:     "WEB Design(Frontend)\html\assigment4.html"
+css file for this page:           "WEB Design(Frontend)\css\assigment4.css"
+js file for this page:            "WEB Design(Frontend)\JS\script.js"

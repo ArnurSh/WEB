@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/assigment4.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--#1-->
+    <h2>Implementing a button</h2>
+    <button onclick="changeBackground()">Change Background Color</button><br><br>
+    <button onclick="changeImage('img1', '../img/issac_like.png')">Change Image</button><br><br>
+    <button onclick="changeText('txt1', 'new text')">Change Text</button><br><br>
+
+    <div id="content">
+        <img id="img1" src="../img/issac.png" alt="Placeholder Image">
+        <p id="txt1">This is some text.</p>
+    </div>
+
+    <br><br><br>
+    <!--#2-->
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <button id="toDoButton" onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+
+    <br><br><br>
+    <!--#3-->
+    <h2>Number Sorting Tool</h2>
+    <input type="text" id="numbersInput">
+    <button onclick="sortNumbers('asc')">Sort Ascending</button>
+    <button onclick="sortNumbers('desc')">Sort Descending</button>
+    <p id="sortedNumbers"></p>
+    <br><br>
+    <!--#4-->
+    <h2>Calculator</h2>
+    <input class="calcInput" type="number" id="num1_10" placeholder="Number 1"><br>
+
+    <input class="calcInput" type="number" id="num2_10" placeholder="Number 2"><br>
+    <div id="calcBtns">
+        <button onclick="Calculator('+')" class="calcBtn">+</button>
+        <button onclick="Calculator('-')" class="calcBtn">-</button>
+        <button onclick="Calculator('%')" class="calcBtn">%</button>
+
+        <button onclick="Calculator('*')" class="calcBtn">*</button>
+        <button onclick="Calculator('/')" class="calcBtn">/</button>
+        <button onclick="Calculator('^')" class="calcBtn">^</button>
+    </div>
+    
+    <br>
+    <p id="calculatorAnsw"></p>
+    <br><br>
+    <!--#5-->
+    <h2>Tax Calculator</h2>
+    <input type="text" id="carPrice" placeholder="Enter car price">
+    <button onclick="calculateTax()">Calculate Tax</button>
+    <p id="taxResult"></p>
+
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }  
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 100%;
+}
+/*Title*/
+#titile{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.container_titile{
+    background:linear-gradient(0.4turn, rgb(161, 75, 90), rgb(177, 93, 163), rgb(109, 174, 248));
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.container_content_titile{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    height: 450px;
+}
+.col-10_titile{
+    padding: 2% 15% 0 0;
+    margin: 0;
+    width: auto;
+}
+.col-lg-6_titile{
+    width: 60%;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3% 0 0 10%;
+    font-size: 170%;
+    font-weight: 600;
+}
+.iphone_dog{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: auto;
+}
+.title_btns{
+    width: 44%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_title{
+    width: 45%;
+    border-radius: 1dvb;
+    border-width: 2px;
+    border-style:solid;
+    border-color: #fff;
+    font-size: 55%;
+    font-weight: 400;
+}
+#btn1_titile{
+    background-color: #fff;
+    color: #000;
+}
+#btn2_titile{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+/*Features*/
+#features{
+    margin-top: 5%;
+}
+.row-cols-lg-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7%;
+    margin: 0;
+}
+.col.d-flex.align-items-start{
+    width: 20%;
+}
+.paragraph_features{
+    font-size: small;
+    font-weight: 500;
+}
+.bi-f{
+    background-color: #e2e2e2;
+    border-radius: 1dvh;
+}
+/*Testimonial*/
+.text-body-emphasis{
+    font-size: 42px;
+}
+.profile-img{
+    border-radius: 100dvb;
+    height: 100px;
+    margin: 5px 0 2px 0;
+}
+.container_image_logo .row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-lg-3{
+    height: 30px;
+}
+/*Pricing*/
+.container_priceing{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.container_priceing h2{
+    font-size: 250%;
+}
+.card-deck{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cards{
+    width: 31%;
+}
+.card-header{
+    background-color: rgb(53, 53, 53);
+    color: #e2e2e2;
+}
+.btn_pricing{
+    background-color: rgb(53, 53, 53);
+    border-color: #e2e2e2;
+    color:#e2e2e2;
+    width: 95%;
+}
+.btn_pricing:hover{
+    background-color: rgb(218, 218, 218);
+    color:rgb(53, 53, 53);
+    border-color: rgb(10, 10, 10);
+}
+.btn_pricing:active{
+    background-color: rgb(53, 53, 53) !important;
+    border-color: #e2e2e2 !important;
+    color:rgb(121, 121, 121) !important;
+}
+#btn_pricing_1{
+    background-color: rgb(218, 218, 218);
+    color:rgb(53, 53, 53);
+    border-color: rgb(10, 10, 10);
+}
+#btn_pricing_1:hover{
+    background-color: rgb(53, 53, 53);
+    color:rgb(218, 218, 218);
+    border-color: rgb(255, 255, 255);
+}
+.btn_pricing_1:active{
+    background-color: rgb(218, 218, 218) !important;
+    border-color: rgb(53, 53, 53) !important;
+    color:rgb(10, 10, 10) !important;
+}
+/*Footer*/
+#footer{
+    background:linear-gradient(0.4turn, rgb(161, 75, 90), rgb(177, 93, 163), rgb(109, 174, 248));
+    padding: 0;
+    margin: 0;
+}

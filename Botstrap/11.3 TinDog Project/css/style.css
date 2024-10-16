@@ -1,0 +1,19 @@
+.gradient-background {
+  background: linear-gradient(110deg, #ec4b4b, #f55a95, #0f4bf1);
+  background-size: 180% 180%;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.mx-lg-auto{
+  padding-top: 5px;
+  width: 70%;
+}

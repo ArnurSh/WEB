@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      margin: 0 auto !important;
+      transform: translateY(15%);
+      display: grid;
+      width: 748px;
+      height: 748px;
+      gap: 9px;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 132px 155px 20px;
+      grid-template-areas:"R Wlar Wlar Wlar"
+                          "WL WR WR B"
+                          "WL WR WR Wb1"
+                          "WTR Y D Wb1";
+    }
+    .red{
+      background-color: #E72F24;
+      grid-area: R;
+    }
+    .white-large{
+      background-color: #F0F1EC;
+      grid-area: Wlar;
+    }
+    .whiteL{
+      background-color: #F0F1EC;
+      grid-area: WL;
+    }
+    .whiteR{
+      background-color: #F0F1EC;
+      grid-area: WR;
+    }
+    .blue{
+      background-color: #004592;
+      grid-area: B;
+      border-bottom: 10px solid #000000; 
+    }
+    .whiteTR{
+      background-color: #F0F1EC;
+      grid-area: WTR;
+    }
+    .yellow{
+      background-color: #F9D01E;
+      grid-area: Y;
+    }
+    .black{
+      background-color: #232629;
+      grid-area: D;
+    }
+    .whiteb1{
+      background-color: #F0F1EC;
+      grid-area: Wb1;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="white-large"></div>
+    <div class="whiteWD"></div>
+    <div class="whiteL"></div>
+    <div class="whiteR"></div>
+    <div class="blue"></div>
+    <div class="whiteb1"></div>
+    <div class="whiteTR"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+  </div>
+</body>
+
+</html>

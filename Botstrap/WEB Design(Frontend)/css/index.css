@@ -1,0 +1,71 @@
+*{
+    font-family: 'Common Pixel', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #68605a;
+}
+.nav_link_header .header_color{
+    background-color: rgb(185, 180, 175);
+    color: rgb(47, 48, 49) !important;
+    font-size: large;
+    border-color: black;
+}
+.nav_link_header_active .header_color_active{
+    background-color: aliceblue;
+}
+.bg-body-tertiary{
+    background-color: #68605a !important;
+}
+.container{
+    color: aliceblue !important;
+    background-color: #68605a;
+}
+.bd-placeholder-img{
+    height: 450px;
+    width: 350px;
+    padding: 50px auto;
+}
+.row-cols-1{
+    background-color: #68605a;
+    font-size: large;
+}
+
+.shadow-sm{
+    background-color: #4d423a;
+}
+.card-body{
+    color: aliceblue;
+}
+.hp{
+    color: red;
+}
+.shield{
+    color: rgb(137, 137, 255);
+}
+.dmg{
+    color: brown;
+}
+.range{
+    color: burlywood;
+}
+.speed{
+    color: green;
+}
+.footer_text{
+    color: aliceblue !important;
+}
+.poster_card{
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: #4d423a;
+}
+.btn_color{
+    background-color: #68605a;
+    border-color: #4d423a;
+}
+.header_color_active{
+    background-color: #68605a;
+}
