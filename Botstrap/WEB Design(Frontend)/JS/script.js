@@ -59,9 +59,13 @@ function sortNumbers(order) {
       return;
     }
     if (order === 'asc') {
-      numbersArray.sort();
+      numbersArray.sort(function (a,b) {
+        return a - b;
+    });
     } else {
-      numbersArray.sort().reverse();
+      numbersArray.sort(function (a,b) {
+        return b - a;
+    });
     }
     document.getElementById("sortedNumbers").textContent = numbersArray.join(' ');
 }
