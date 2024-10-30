@@ -64,7 +64,7 @@ function sortNumbers(order) {
     });
     } else {
       numbersArray.sort(function (a,b) {
-        return b - a;
+        return b - a ;
     });
     }
     document.getElementById("sortedNumbers").textContent = numbersArray.join(' ');
